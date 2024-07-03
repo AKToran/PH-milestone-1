@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.header{
+    height: auto;
+    text-align: center;
+    padding: auto;
+    /* background-image: url('library\ idea.jpg'); */
+    background-image: url("../Images/Screenshot\ 2024-05-14\ 152803.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-size: contain;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+.blog {
+    background-color: aquamarine;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    border-left-color: gold;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px green;
+    box-shadow: x-offset, y-offset, blur, spread, color;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.first{
+    text-decoration: line-through;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+li{
+    display: inline;
+    margin: 5px;
+}
+p{
+    color:blue;
+}
