@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h3>Please fill up the form:</h3>
+            <form action="">
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="exam@example.com">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="text" id="phone" placeholder="mobile">
+                </label>
+
+                <fieldset>
+                    <legend>Pick one:</legend>
+                    <label for="male">
+                        <input type="radio" name="sex" id="male"> Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="sex" id="female"> Female
+                    </label>
+                    <label for="third">
+                        <input type="radio" name="sex" id="third"> Third
+                    </label>
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>Pick one or more subject:</legend>
+                    <label for="math">
+                        <input type="checkbox" name="subject" id="math"> Math
+                    </label>
+                    <label for="physics">
+                        <input type="checkbox" name="subject" id="physics"> Physics
+                    </label>
+                    <label for="CSE">
+                        <input type="checkbox" name="subject" id="cse"> CSE
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction:</legend>
+                    <textarea name="" id="" cols="100" rows="2" placeholder="Label for Input ID"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+
+                <input type="button" value="Submit">
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
