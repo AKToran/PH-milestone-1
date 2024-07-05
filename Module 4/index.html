@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Audio File</h1>
+    <audio controls src="assets/media/Goat-bleat-sound.mp3"></audio>
+
+    <h1>Video File</h1>
+    <video width="50%" controls src="assets/media/Untitle 1.mp4"></video>
+    <h3>another way</h3>
+    <video controls width="50%">
+        <source src="assets/media/Untitle 1.mp4" type="video/mp4">
+        <!-- another source -->
+        <source src="assets/media/Untitle 1.webm" type="video/mp4">
+    </video>
+    <br>
+    <a href="assets/media/Untitle 1.mp4" download>Download the video</a>
+    <p>without the 'download' attribute the video just opens in the whole tab.</p>
+    <br>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q-_ezD9Swz4?si=SKavUWt6FdcRsfBT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
