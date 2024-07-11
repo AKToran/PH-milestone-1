@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .box{
+            position: relative;
+        }
+        .boy{
+            z-index: 3;
+        }
+        .ring{
+            top: -80px;
+            z-index: 1;
+            left: 5px
+        }
+        .water{
+            top: -170px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Intro to Z-Axis</h1>
+
+    <div class="swim-container">
+        <div class="box boy"><img src="assets/boy.svg" alt=""></div>
+        <div class="box ring"><img src="assets/ring.svg" alt=""></div>
+        <div class="box water"><img src="assets/water.svg" alt=""></div>
+    </div>
+</body>
+</html>
